@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(po.img);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 90vh; 
+  margin: 0; 
+  
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #525151;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 3px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.botao {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+form a,
+a:hover {
+  background-color: #0056b3;
+}
+
+#restrictedArea {
+  margin-top: 20px;
+}
+
+.registro {
+  margin-top: 100px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+form a,
+a {
+  text-decoration: none;
+}
+.btn {
+  padding: 3px;
+  background-color: #ebe1e1;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  
+  
+}

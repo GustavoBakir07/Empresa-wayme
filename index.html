@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Indústrias Wayne - Controle de Acesso</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Controle de Acesso</h1>
+    <div class="form-container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input type="text" id="loginUsername" placeholder="Usuário" required>
+        <input type="password" id="loginPassword" placeholder="Senha" required>
+        <input type="text" id="role" placeholder="Função (employee, manager, admin)" required>
+        <button type="submit" class="botao">ENTRAR</button>
+      </form>
+      <div id="loginMessage"></div>
+    </div>
+    <div class="form-container">
+      <div class="registro">
+        <a class="botao" href="index2.html">REGISTRAR</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
